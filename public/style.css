@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+
+body {
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 h2 h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+#userHero {
+    border: 1px solid #767676;
+    background-color: #131313;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#repo_holder{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+.repo {
+    border: 1px solid #767676;
+    background-color: #131313;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px;
+    min-width: 31%;
+    flex-direction: row;
+}
+
+.imageBio {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.bioText {
+    font-style: italic;
+}
+
+.repoName {
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.aEl:link, .aEl:visited {
+  background-color: #151515;
+  color: #8264FC;
+  border: 1px solid #8264FC;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 5px;
+}
+.aEl:hover, .aEl:active {
+    background-color: #8264FC;
+    color: #fff;
+}

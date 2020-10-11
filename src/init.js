@@ -1,4 +1,5 @@
 'use strict';
 
+import { appHandler } from './app/handler.js';
 
-console.log('hello');
+window.addEventListener('onload', appHandler());
