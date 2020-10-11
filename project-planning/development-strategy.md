@@ -1,43 +1,45 @@
-# JavaScript Quiz
+# GitHub Portfolio
 
-...
+This project was builded to train `fetch` and working with `API` calls.
 
 ---
 
 ## User Story Dependencies
 
-[Story Dependency Diagram](https://excalidraw.com/)
+There was no focus on dependencies when working on the project, I just sit and work on it.
 
 ---
 
 ## WIREFRAME
 
-![wireframe]()
+Same as user story dependencies
 
 ---
 
 ## 0.Setup
 
+- [x] Create project from template;
+
 ---
 
 ## 1. Initialize Application
 
-__As a user I want to see the initial page when I load the site__
+__As a user I can fetch all the given information about the GitHub user account__
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
-- ...
 
 ### REPO
 
-- This user story is developed on branch `_`.
-- This branch is merged to `master` branch after completion.
-
-### Task A
-
-### Task B
-
-### Task ...
+- This user story is developed on branch `master`.
+- All the heavy work of create `fetch`, `classes` and rendering was created.
 
 ---
 
-## ...
+## 2. Finishing Touches
+
+__As a user I can see in a nice UI the information that was fetched__
+
+
+### REPO
+
+- This user story is developed on branch `master`.
+- All the css related worked was done.
